@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --blue: #005bc0;
+  --second: #eef1f7;
+  --footer: #dfe3e8;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #eef1f7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  display: flex;
+  padding: 0 0 0 60px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 40%;
+  color: var(--blue);
+  font-size: 27px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+
+li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--footer);
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 0 0 60px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+  margin-left: auto;
+  display: flex;
+  justify-content: end;
+}
+
+.FirstLine{
+  font-size:27px;
+  font-weight:bold;
+  margin-left: 60px;
+  margin-bottom:20px;
+  margin-top: 30px;
+}
+
+.SecondLine{
+  font-size:18px;
+  margin-left:60px;
+}
+
+.container{
+  width:100%;
+}
+
+.RowContainer{
+  height: 100px;
+  width:100%;
+  display:flex;
+}
+
+.Sidebar{
+  padding: 60px 30px 30px 60px;
+  width: 33%;
+  height: 100%;
+  position:relative;
+}
+
+.Main{
+  width:67%;
+  height: 100%;
+  padding: 60px 60px 60px 0;
+}
+
+.ProfileStatus{
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #8D9196;
+  margin-bottom: 30px;
+  background-color:  #FFFFFF;
+}
+
+.UpcomingDeadlines{
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #8D9196;
+  /* margin: 60px 30px 60px 60px; */
+  background-color: #FFFFFF;
+}
+
+.TopMatches{
+  font-size: 20px;
+  margin: 0 0 30px 0;
+}
+
+.top{
+  display:flex;
+}
+
+.left1{
+    margin: 0 30px 0 0;
+    width: 100%;
+}
+
+.left2{
+  margin: 0 30px 0 0;
+    width: 100%;
+}
+
+.right1{
+  width:100%;
+}
+
+.right2{
+    width: 100%;
+}
+
+.bottom{
+  display: flex;
+}
